@@ -13,7 +13,7 @@ FROM registry.access.redhat.com/ubi9:latest
 # Apply labels to final layer
 LABEL org.opencontainers.image.title="Kubecost Cost Model"
 LABEL org.opencontainers.image.description="Backend container for Kubecost"
-LABEL org.opencontainers.image.base.name="registry.access.redhat.com/ubi9:latest:latest"
+LABEL org.opencontainers.image.base.name="registry.access.redhat.com/ubi9:latest"
 # LABEL org.opencontainers.image.base.digest="sha256:f969e6a4fe53663f3fc8d0ddc17ec2fc3def2af8e68ce7061f016a598798f474"
 LABEL org.opencontainers.image.vendor="Stackwatch"
 
